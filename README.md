@@ -3,3 +3,5 @@ for info about blanking the screen
 
 for starting automatically, in rc.local:
 /home/pi/skiptv/start.sh
+
+expansion plug goes with bump inwards
