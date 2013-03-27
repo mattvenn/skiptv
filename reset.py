@@ -3,7 +3,7 @@ import RPIO
 import os
 import time
 
-int_pin = 10
+int_pin = 18
 
 def do_something(gpio_id, value):
     print "reboot"
