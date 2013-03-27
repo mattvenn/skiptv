@@ -12,7 +12,7 @@ def play_vid(gpio_id, value):
     RPIO.output(led_pin, True)
 
     #("New value for GPIO %s: %s" % (gpio_id, value))
-    os.system("mplayer -vo fbdev2:/dev/fb0 -framedrop /home/pi/skiptv/testshort.avi")
+    os.system("mplayer -vo fbdev2:/dev/fb0 -framedrop /home/pi/skiptv/skiptv.wmv")
     RPIO.output(led_pin, False)
     print "finished"
 
